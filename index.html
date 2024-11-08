@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/logo2.ico" />
+    <title>Sonic Game</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+      .controls {
+        position: fixed;
+        top: 50%;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        z-index: 10;
+      }
+      button {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 20px;
+        cursor: pointer;
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+      }
+      button:focus {
+        outline: none;
+      }
+
+      /* Overlay negro para la transición */
+      #transitionOverlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0;
+        pointer-events: none;
+        z-index: 2; /* Asegúrate de que esté sobre la escena pero debajo del modelo de carga */
+        transition: opacity 0.4s ease; /* Duración de la transición */
+      }
+      #characterInfo {
+        position: fixed;
+        bottom: 20px;
+        left: 86%;
+        transform: translateX(-50%);
+        display: none; /* Oculto hasta que se muestre con JavaScript */
+        width: 400px; /* Ajusta este valor para alargar el cuadro */
+        height: 650px; /* Ajusta este valor para la altura */
+        background-size: cover; /* Esto hace que la imagen se estire para cubrir el contenedor */
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 30px; /* Espacio interno para el texto */
+        color: white;
+        text-align: center;
+        font-size: 18px;
+      }
+
+      #characterInfo img {
+        width: 450px; /* Aumenta el ancho del cuadro de diálogo */
+        height: auto;
+      }
+
+      #characterText {
+        position: absolute;
+        bottom: 235px; /* Ajusta la posición vertical del texto */
+        left: 55%;
+        transform: translateX(-50%);
+        color: white;
+        font-size: 21px;
+        padding: 0 17px;
+        width: 300px; /* Ajusta el ancho del texto dentro del cuadro */
+        height: 250px; /* Ajusta la altura total del cuadro para hacerlo más largo */
+      }
+
+      #titleImage {
+        position: fixed;
+        top: -25px; /* Ajusta la posición vertical */
+        left: 18%;
+        transform: translateX(-50%); /* Centra horizontalmente */
+        z-index: 2; /* Debajo del overlay pero encima de otros elementos */
+        max-width: 40%; /* Limita el ancho si es necesario */
+        transition: opacity 0.4s ease; /* Transición suave al ocultarse */
+        opacity: 1; /* Visible por defecto */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="transitionOverlay"></div>
+    <img id="titleImage" src="img/texto.png" alt="Título" />
+    <div id="characterInfo">
+      <img src="/img/info.png" alt="Character Dialog" />
+      <p id="characterText">Información del personaje</p>
+    </div>
+
+    <div class="controls">
+      <button id="leftBtn">←</button>
+      <button id="rightBtn">→</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Loading animation
+* source:	https://sketchfab.com/3d-models/loading-animation-fe9d25c88165462582454f85fad69e81
+* author:	yelaman.arts (https://sketchfab.com/elamanbolushan)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Loading animation" (https://sketchfab.com/3d-models/loading-animation-fe9d25c88165462582454f85fad69e81) by yelaman.arts (https://sketchfab.com/elamanbolushan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

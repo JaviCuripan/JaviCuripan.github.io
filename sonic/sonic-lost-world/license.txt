@@ -1,0 +1,11 @@
+Model Information:
+* title:	Sonic-lost-world-sonic-model
+* source:	https://sketchfab.com/3d-models/sonic-lost-world-sonic-model-f0fc312eef804b85afecce3d0bcc91e0
+* author:	joneschr003 (https://sketchfab.com/joneschr003)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Sonic-lost-world-sonic-model" (https://sketchfab.com/3d-models/sonic-lost-world-sonic-model-f0fc312eef804b85afecce3d0bcc91e0) by joneschr003 (https://sketchfab.com/joneschr003) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

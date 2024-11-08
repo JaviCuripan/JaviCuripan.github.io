@@ -1,0 +1,11 @@
+Model Information:
+* title:	Metal Sonic Remake
+* source:	https://sketchfab.com/3d-models/metal-sonic-remake-307a34d470d0467baa3762f7a1ea65dc
+* author:	AzuWaffles (https://sketchfab.com/AzuWaffles)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Metal Sonic Remake" (https://sketchfab.com/3d-models/metal-sonic-remake-307a34d470d0467baa3762f7a1ea65dc) by AzuWaffles (https://sketchfab.com/AzuWaffles) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
